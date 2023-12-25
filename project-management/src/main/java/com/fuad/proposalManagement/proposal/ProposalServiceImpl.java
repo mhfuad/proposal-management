@@ -15,6 +15,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.nio.file.Files;
 import java.util.Arrays;
 import java.util.Base64;
 import java.util.UUID;
@@ -72,4 +73,50 @@ public class ProposalServiceImpl implements ProposalService{
     public static String fileName(String name){
         return "/"+UUID.randomUUID().toString()+name.trim()+".pdf";
     }
+
+    @Override
+    public byte[] getFile(String fileName) throws IOException {
+        String filePath = UPLOAD_DIRECTORY+"/"+fileName;
+        byte[] images = Files.readAllBytes(new File(filePath).toPath());
+        return images;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
