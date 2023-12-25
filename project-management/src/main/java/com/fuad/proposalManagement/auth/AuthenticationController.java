@@ -54,7 +54,8 @@ public class AuthenticationController {
     public ResponseEntity<?> self(){
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         if(authentication.isAuthenticated()){
-            return ResponseEntity.ok(authentication.getName());
+            User user = userRepository.findByUsername(authentication.getName()).orElse(null);
+            return ResponseEntity.ok(user);
         }else {
             return ResponseEntity.ok( "not ok");
         }

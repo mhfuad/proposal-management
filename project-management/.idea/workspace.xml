@@ -6,36 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6afa2ed8-25f5-422a-853c-c08133704854" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/Department.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/DepartmentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/DepartmentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/DepartmentRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/DepartmentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/DepartmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/department/DepartmentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/permission/Permission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/StudentRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/StudentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/StudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/student/StudentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/TeacherController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/TeacherRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/TeacherRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/TeacherResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/TeacherService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/teacher/TeacherServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfoRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfoResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/user_info/UserInfoServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/auth/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/auth/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/proposal/ProposalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/proposal/ProposalServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

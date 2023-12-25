@@ -53,11 +53,12 @@ public class ProposalServiceImpl implements ProposalService{
     }
 
     public static String fileUpload(String image, String name){
-        byte[] decodedBytes = Base64.getDecoder().decode(image);
+        byte[] decodedBytes = Base64.getDecoder().decode(image.split(",")[1]);
         String file_name = fileName(name);
         try{
-            FileOutputStream fos = new FileOutputStream(UPLOAD_DIRECTORY+file_name);
+            FileOutputStream fos = new FileOutputStream(UPLOAD_DIRECTORY+"/"+file_name);
             fos.write(decodedBytes);
+            System.out.println(file_name);
             return file_name;
         }catch (IOException e){
 
@@ -67,7 +68,7 @@ public class ProposalServiceImpl implements ProposalService{
     }
 
     public static String fileName(String name){
-        return "/"+UUID.randomUUID().toString()+name.trim()+".pdf";
+        return UUID.randomUUID().toString()+name.trim()+".pdf";
     }
 
     @Override
