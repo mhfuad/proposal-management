@@ -25,12 +25,7 @@ public class ProposalController {
 
     @PostMapping
     public Proposal save(@RequestBody Proposal proposal, HttpServletRequest request){
-        String userName = request.getUserPrincipal().getName();
-        User user = userRepository.findByUsername(userName).orElse(null);
-        if(user != null){
-            proposal.setUser(user);
-        }
-        return repository.save(proposal);
+        return service.save(proposal, request);
     }
 
     @GetMapping
