@@ -3,7 +3,6 @@ package com.fuad.proposalManagement.user;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fuad.proposalManagement.proposal.Proposal;
 import com.fuad.proposalManagement.role.Role;
-import com.fuad.proposalManagement.user_info.UserInfo;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
@@ -51,8 +50,5 @@ public class User {
 
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private Set<Role> roles;
-
-    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
-    private UserInfo userInfo;
 
 }
