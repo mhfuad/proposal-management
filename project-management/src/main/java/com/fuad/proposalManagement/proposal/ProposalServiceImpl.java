@@ -30,23 +30,19 @@ public class ProposalServiceImpl implements ProposalService{
 
     public static String UPLOAD_DIRECTORY = System.getProperty("user.dir") + "/uploads";
 
-
-
     @Override
     public Proposal save(Proposal proposal, HttpServletRequest request) {
+        createDirectory();
+
         String image = fileUpload(proposal.getImage(), proposal.getImage_name());
         proposal.setImage(image);
-        System.out.println(image);
-        return proposal;
-//        proposal.setStatus(false);
-//        String userName = request.getUserPrincipal().getName();
-//        User user = userRepository.findByUsername(userName).orElse(null);
-//        if(user != null){
-//            proposal.setUser(user);
-//        }
-//        createDirectory();
-//
-//        return repository.save(proposal);
+        proposal.setStatus(false);
+        String userName = request.getUserPrincipal().getName();
+        User user = userRepository.findByUsername(userName).orElse(null);
+        if(user != null){
+            proposal.setUser(user);
+        }
+        return repository.save(proposal);
     }
 
     public static void createDirectory(){

@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6afa2ed8-25f5-422a-853c-c08133704854" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fuad/proposalManagement/AclDemoApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aclDemo_2023-09-14_185934" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/home/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/home/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fuad/proposalManagement/proposal/ProposalServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/proposal/ProposalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/proposal/ProposalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/home/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/home/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/proposal/ProposalServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fuad/proposalManagement/proposal/ProposalServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/120bf546-458b-4fbb-96b8-7fad6c23a4a5file.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/1a091422-43f7-44ec-ab60-0c5c22c421adfile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a43a5354-669c-40d3-a296-50978d211f40file.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +44,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
