@@ -1,5 +1,5 @@
 package com.fuad.proposalManagement.user;
 
 public enum UserTypeEnum {
-    CUSTOMER, ADMIN, TEACHER, STUDENT
+    CUSTOMER, ADMIN, TEACHER, STUDENT, USER
 }

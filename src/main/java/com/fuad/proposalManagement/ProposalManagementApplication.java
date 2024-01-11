@@ -33,21 +33,22 @@ public class ProposalManagementApplication {
 		SpringApplication.run(ProposalManagementApplication.class, args);
 	}
 
-//	@Bean
-//	CommandLineRunner commandLineRunner(){
-//		return args -> {
-//			Map<String, String> roles = new HashMap<>();
-//			roles.put("ROLE_ADMIN","ADMIN ROLE");
-//			roles.put("ROLE_CUSTOMER","ADMIN ROLE");
-//			roles.put("ROLE_STUDENT","ROLE STUDENT");
-//			roles.put("ROLE_TEACHER","ROLE TEACHER");
-//
-//			for (Map.Entry<String, String> entry: roles.entrySet()){
-//				Role role = new Role();
-//				role.setName(entry.getKey());
-//				role.setDescription(entry.getValue());
-//				roleRepository.save(role);
-//			}
-//		};
-//	}
+	@Bean
+	CommandLineRunner commandLineRunner(){
+		return args -> {
+			Map<String, String> roles = new HashMap<>();
+			roles.put("ROLE_ADMIN","ADMIN ROLE");
+			roles.put("ROLE_USER","USER ROLE");
+			roles.put("ROLE_CUSTOMER","ADMIN ROLE");
+			roles.put("ROLE_STUDENT","ROLE STUDENT");
+			roles.put("ROLE_TEACHER","ROLE TEACHER");
+
+			for (Map.Entry<String, String> entry: roles.entrySet()){
+				Role role = new Role();
+				role.setName(entry.getKey());
+				role.setDescription(entry.getValue());
+				roleRepository.save(role);
+			}
+		};
+	}
 }
